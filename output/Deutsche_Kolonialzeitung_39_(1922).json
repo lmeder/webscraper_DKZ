@@ -1,0 +1,1782 @@
+{
+    "viewingHint": "paged",
+    "service": [
+        {
+            "profile": "http://iiif.io/api/search/1/search",
+            "@context": "http://iiif.io/api/search/1/context.json",
+            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/manifest/7729696/search",
+            "label": "Search within this manifest"
+        }
+    ],
+    "structures": [
+        {
+            "ranges": [
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7729696"
+            ],
+            "viewingHint": "top",
+            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7720783",
+            "@type": "sc:Range",
+            "label": "Table of Contents"
+        },
+        {
+            "canvases": [
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729702",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729703",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729729",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729730",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729731",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729732",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729737",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729738",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729739",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729740",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729733",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729734",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729735",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729736",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729743",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729744",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729745",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729746",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729751",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729752",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729753",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729754",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729747",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729748",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729749",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729750",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729705",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729706",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729707",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729708",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729713",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729714",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729715",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729716",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729709",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729710",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729711",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729712",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729757",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729758",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729759",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729760",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729765",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729766",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729767",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729768",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729761",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729762",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729763",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729764",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729718",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729719",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729720",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729721",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729726",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729727"
+            ],
+            "ranges": [
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7729701",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7729728",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7869648",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7729742",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7869656",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7729704",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7869658",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7729756",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7869663",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7729717"
+            ],
+            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7729696",
+            "@type": "sc:Range",
+            "label": "39 (1922)"
+        },
+        {
+            "canvases": [
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729702",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729703"
+            ],
+            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7729701",
+            "@type": "sc:Range",
+            "label": "Titelblatt 39. Jahrgang = 1922"
+        },
+        {
+            "canvases": [
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729729",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729730",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729731",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729732",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729737",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729738",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729739",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729740"
+            ],
+            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7729728",
+            "@type": "sc:Range",
+            "label": "1 (20.1.1922)"
+        },
+        {
+            "canvases": [
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729733",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729734",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729735",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729736"
+            ],
+            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7869648",
+            "@type": "sc:Range",
+            "label": "Frauenverein vom Roten Kreuz für Deutsche über See. Nr. 1"
+        },
+        {
+            "canvases": [
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729743",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729744",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729745",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729746",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729751",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729752",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729753",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729754"
+            ],
+            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7729742",
+            "@type": "sc:Range",
+            "label": "2 (20.3.1922)"
+        },
+        {
+            "canvases": [
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729747",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729748",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729749",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729750"
+            ],
+            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7869656",
+            "@type": "sc:Range",
+            "label": "Frauenverein vom Roten Kreuz für Deutsche über See. Nr. 2"
+        },
+        {
+            "canvases": [
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729705",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729706",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729707",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729708",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729713",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729714",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729715",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729716"
+            ],
+            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7729704",
+            "@type": "sc:Range",
+            "label": "3 (6.5.1922)"
+        },
+        {
+            "canvases": [
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729709",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729710",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729711",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729712"
+            ],
+            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7869658",
+            "@type": "sc:Range",
+            "label": "Frauenverein vom Roten Kreuz für Deutsche über See. Nr. 3"
+        },
+        {
+            "canvases": [
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729757",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729758",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729759",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729760",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729765",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729766",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729767",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729768"
+            ],
+            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7729756",
+            "@type": "sc:Range",
+            "label": "4 (27.7.1922)"
+        },
+        {
+            "canvases": [
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729761",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729762",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729763",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729764"
+            ],
+            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7869663",
+            "@type": "sc:Range",
+            "label": "Frauenverein vom Roten Kreuz für Deutsche über See. Nr. 4"
+        },
+        {
+            "canvases": [
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729718",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729719",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729720",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729721",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729726",
+                "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729727"
+            ],
+            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/range/7729717",
+            "@type": "sc:Range",
+            "label": "5 (15.9.1922)"
+        }
+    ],
+    "sequences": [
+        {
+            "canvases": [
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729702"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729702",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729702",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729702",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "[1]",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729702",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729703"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729703",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729703",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729703",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "[2]",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729703",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729729"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729729",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729729",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729729",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "1",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729729",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729730"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729730",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729730",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729730",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "2",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729730",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729731"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729731",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729731",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729731",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "3",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729731",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729732"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729732",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729732",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729732",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "4",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729732",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729737"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729737",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729737",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729737",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "5",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729737",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729738"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729738",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729738",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729738",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "6",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729738",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729739"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729739",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729739",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729739",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "7",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729739",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729740"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729740",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729740",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729740",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "8",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729740",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729733"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729733",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729733",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729733",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "1",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729733",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729734"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729734",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729734",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729734",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "2",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729734",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729735"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729735",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729735",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729735",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "3",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729735",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729736"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729736",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729736",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729736",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "4",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729736",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729743"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729743",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729743",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729743",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "9",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729743",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729744"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729744",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729744",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729744",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "10",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729744",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729745"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729745",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729745",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729745",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "11",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729745",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729746"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729746",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729746",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729746",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "12",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729746",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729751"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729751",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729751",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729751",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "13",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729751",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729752"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729752",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729752",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729752",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "14",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729752",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729753"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729753",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729753",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729753",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "15",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729753",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729754"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729754",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729754",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729754",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "16",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729754",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729747"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729747",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729747",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729747",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "5",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729747",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729748"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729748",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729748",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729748",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "6",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729748",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729749"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729749",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729749",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729749",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "7",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729749",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729750"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729750",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729750",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729750",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "8",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729750",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729705"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729705",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729705",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729705",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "17",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729705",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729706"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729706",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729706",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729706",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "18",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729706",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729707"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729707",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729707",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729707",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "19",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729707",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729708"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729708",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729708",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729708",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "20",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729708",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729713"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729713",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729713",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729713",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "21",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729713",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729714"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729714",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729714",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729714",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "22",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729714",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729715"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729715",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729715",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729715",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "23",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729715",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729716"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729716",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729716",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729716",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "24",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729716",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729709"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729709",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729709",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729709",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "9",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729709",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729710"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729710",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729710",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729710",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "10",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729710",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729711"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729711",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729711",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729711",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "11",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729711",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729712"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729712",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729712",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729712",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "12",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729712",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729757"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729757",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729757",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729757",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "25",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729757",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729758"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729758",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729758",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729758",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "26",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729758",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729759"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729759",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729759",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729759",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "27",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729759",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729760"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729760",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729760",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729760",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "28",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729760",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729765"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729765",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729765",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729765",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "29",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729765",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729766"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729766",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729766",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729766",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "30",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729766",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729767"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729767",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729767",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729767",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "31",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729767",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729768"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729768",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729768",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729768",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "32",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729768",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729761"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729761",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729761",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729761",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "13",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729761",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729762"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729762",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729762",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729762",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "14",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729762",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729763"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729763",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729763",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729763",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "15",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729763",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729764"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729764",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729764",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729764",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "16",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729764",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729718"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729718",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729718",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729718",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "33",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729718",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729719"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729719",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729719",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729719",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "34",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729719",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729720"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729720",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729720",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729720",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "35",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729720",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729721"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729721",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729721",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729721",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "36",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729721",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729726"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729726",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729726",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729726",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "37",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729726",
+                    "@type": "sc:Canvas"
+                },
+                {
+                    "height": 7322,
+                    "width": 5574,
+                    "images": [
+                        {
+                            "resource": {
+                                "service": {
+                                    "profile": "http://iiif.io/api/image/2/level2.json",
+                                    "@context": "http://iiif.io/api/image/2/context.json",
+                                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729727"
+                                },
+                                "format": "image/jpeg",
+                                "height": 1313,
+                                "width": 1000,
+                                "@id": "https://sammlungen.ub.uni-frankfurt.de/download/webcache/1000/7729727",
+                                "@type": "dctypes:Image"
+                            },
+                            "on": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729727",
+                            "motivation": "sc:painting",
+                            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/annotation/7729727",
+                            "@type": "oa:Annotation"
+                        }
+                    ],
+                    "label": "38",
+                    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729727",
+                    "@type": "sc:Canvas"
+                }
+            ],
+            "viewingHint": "paged",
+            "startCanvas": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/canvas/7729702",
+            "viewingDirection": "left-to-right",
+            "label": "Current Page Order",
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/sequence/normal",
+            "@type": "sc:Sequence"
+        }
+    ],
+    "label": "Deutsche Kolonialzeitung: 39 (1922)",
+    "thumbnail": {
+        "width": 304,
+        "height": 399,
+        "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v21/7729702/full/304/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg"
+    },
+    "logo": {
+        "@id": "https://sammlungen.ub.uni-frankfurt.de/domainresource/static/graphics/connectors/viewerLogo.gif",
+        "service": {
+            "profile": "http://iiif.io/api/image/2/level2.json",
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "http://sammlungen.ub.uni-frankfurt.de"
+        }
+    },
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "seeAlso": {
+        "format": "application/xml",
+        "@id": "https://sammlungen.ub.uni-frankfurt.de/oai?verb=GetRecord&metadataPrefix=mets&identifier=7729696",
+        "label": "METS"
+    },
+    "@id": "https://sammlungen.ub.uni-frankfurt.de/i3f/v20/7729696/manifest",
+    "@type": "sc:Manifest",
+    "metadata": [
+        {
+            "value": "Deutsche Kolonialzeitung : Organ der Deutschen Kolonialgesellschaft",
+            "label": "Gesamttitel"
+        },
+        {
+            "value": "39 (1922)",
+            "label": "Jahrgang"
+        }
+    ]
+}

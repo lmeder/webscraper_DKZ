@@ -8,6 +8,7 @@ from collections import Counter
 import datetime
 import os
 
+
 def remove_hapax(docs):
     freq = Counter(token for doc in docs for token in doc)
     hapax = {token for token, count in freq.items() if count == 1}
@@ -27,13 +28,22 @@ df_filtered = df[df["tokens"].apply(len) >= min_tokens].copy()
 
 df_filtered["tokens"] = remove_hapax(df_filtered["tokens"])
 
-stop_words = ["scheinen", "suchen", "nehmen", "erscheinen", "sch", "sehen", "deutsch", "herr", "fres"]
+stop_words = [
+    "scheinen",
+    "suchen",
+    "nehmen",
+    "erscheinen",
+    "sch",
+    "sehen",
+    "deutsch",
+    "herr",
+    "fres",
+]
 df_filtered["tokens"] = remove_stopwords(df_filtered["tokens"], stop_words)
 
 
 # --- 5. Dokumente erneut prüfen ---
 df_filtered = df_filtered[df_filtered["tokens"].apply(len) >= min_tokens].copy()
-
 
 
 print("Ursprüngliche Dokumente:", len(df))
@@ -45,37 +55,57 @@ year_to_tp = {year: idx for idx, year in enumerate(years)}
 
 
 # --- Parameter merken ---
-k = 10
+k = 20
 num_timepoints = len(years)
-min_cf = 30
-min_df = 5
+min_cf = 50
+min_df = 20
 term_weight = "IDF"
-workers = 1
+workers = 8
 seed = 42
-total_iters = 600
-step = 50
+total_iters = 10000
+step = 100
+burn_in = 1200
 
 dtm = tp.DTModel(
-    k=k,
-    t=num_timepoints,
-    min_cf=min_cf,
-    min_df=min_df,
-    tw=tp.TermWeight.IDF,
-    seed=seed
+    k=k, t=num_timepoints, min_cf=min_cf, min_df=min_df, tw=tp.TermWeight.IDF, seed=seed
 )
 
 # ---------- DOKUMENTE HINZUFÜGEN ----------
 for _, row in tqdm(df_filtered.iterrows(), total=len(df_filtered)):
     dtm.add_doc(row["tokens"], timepoint=year_to_tp[row["year"]])
 
-dtm.burn_in = 100
+dtm.burn_in = burn_in
 
 # ---------- TRAINING ----------
-print("Starte Training...")
+# ll pro Schritt festhalten und stop definieren
+ll_history = []
+
+threshold = 0.005
+patience = 3
+stable_count = 0
+
+print("Starte Training mit Early Stopping...")
+
 for i in range(0, total_iters, step):
     dtm.train(step, workers=workers)
-    print(f"Iteration {i+step:4d} | Log-likelihood per word: {dtm.ll_per_word:.4f}")
+    current_ll = dtm.ll_per_word
+    ll_history.append(current_ll)
 
+    print(f"Iteration {i+step:4d} | Log-likelihood per word: {current_ll:.6f}")
+
+    # Erst prüfen, wenn wir mindestens 2 Werte haben
+    if len(ll_history) > 1:
+        change = abs(ll_history[-1] - ll_history[-2])
+
+        if change < threshold:
+            stable_count += 1
+            print(f"  ΔLL = {change:.6f} (stabil {stable_count}/{patience})")
+
+            if stable_count >= patience:
+                print("Konvergenz erreicht – Training wird beendet.")
+                break
+        else:
+            stable_count = 0
 
 print("Training abgeschlossen!")
 print("Docs per timepoint:", dtm.num_docs_by_timepoint)
@@ -101,6 +131,9 @@ for t, n_docs in enumerate(num_docs_by_tp):
 # Speichert das trainierte Modell
 timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H%M")
 
+os.makedirs("dtm_models", exist_ok=True)
+os.makedirs("dtm_runs", exist_ok=True)
+
 dtm.save(os.path.join("dtm_models", f"dtm_model_{timestamp}.bin"))
 print("Modell gespeichert als dtm_model.bin")
 
@@ -114,7 +147,7 @@ with open(output_file, "w", encoding="utf-8") as f:
     f.write(f"min_cf: {min_cf}\n")
     f.write(f"min_df: {min_df}\n")
     f.write(f"workers: {workers}\n")
-    f.write(f"workers: {total_iters}\n")
+    f.write(f"total_iters: {total_iters}\n")
     f.write(f"seed: {seed}\n")
     f.write(f"TermWeight: {term_weight}\n")
     f.write(f"Burn-in: {dtm.burn_in}\n")
@@ -144,16 +177,16 @@ with open(output_file, "w", encoding="utf-8") as f:
 
     f.write("\n")
 
-
     # --- Top-Wörter pro Topic und Zeitpunkt ---
     f.write("===== Top-Wörter der Topics =====\n\n")
     for k_idx in range(dtm.k):
         f.write(f"--- Topic {k_idx} ---\n")
         for t in range(num_timepoints):
             top_words = dtm.get_topic_words(k_idx, timepoint=t, top_n=10)
-            top_words_str = ", ".join([f"{word}({prob:.3f})" for word, prob in top_words])
+            top_words_str = ", ".join(
+                [f"{word}({prob:.3f})" for word, prob in top_words]
+            )
             f.write(f"Timepoint {t}: {top_words_str}\n")
         f.write("\n")
 
 print(f"Modellübersicht und Top-Wörter wurden in '{output_file}' gespeichert.")
-

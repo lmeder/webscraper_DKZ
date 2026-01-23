@@ -35,7 +35,14 @@ def extract_year(label):
         return int(m.group())
     return None
 
-
+# ---------- SONDERZEICHENDICHTE ----------
+def special_char_density(text):
+    if not isinstance(text, str) or len(text) == 0:
+        return 0.0
+    total_chars = len(text)
+    special_chars = len(re.findall(r'[^A-Za-z0-9äöüÄÖÜßſ\s]', text))  # alles außer Buchstaben, Zahlen, Leerzeichen
+    return special_chars / total_chars
+    
 def simple_corpus_normalization():
 
     # ---------- CSV LADEN ----------
@@ -61,6 +68,18 @@ def simple_corpus_normalization():
     df = df.dropna(subset=["year"])
     df["year"] = df["year"].astype(int)
     print(f"Jahr extrahiert")
+
+    # ---------- Jahr 1883 entfernen ----------
+    df = df[df["year"] != 1883]
+    print(f"Nach Entfernen von 1883: {len(df)} Zeilen")
+
+    df["region_length"] = df.text.str.len()
+    df['special_char_density'] = df['text'].apply(special_char_density)
+
+    # Filtern kurzer Regions um Werbung auszuschließen
+    df = df[df.region_length > 500]
+    df = df[df.special_char_density < 0.1]
+    # Test ob es sinnvoll ist Preis rauszufiltern
 
     # ---------- Regionen zu Seiten zusammenfassen ----------
     print("Fasse OCR-Regionen pro Seite zusammen ...")

@@ -2,3 +2,7 @@ venv/
 venv38/
 venv311/
 .venv/
+input/
+output/
+dtm_runs/
+dtm_models/

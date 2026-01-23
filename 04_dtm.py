@@ -38,33 +38,43 @@ stop_words = [
     "deutsch",
     "herr",
     "fres",
+    "berlust",
+    "lne",
+    "kebruar",
+    "banthaus",
+    "golenialgesellschaft",
 ]
 df_filtered["tokens"] = remove_stopwords(df_filtered["tokens"], stop_words)
 
 
-# --- 5. Dokumente erneut prüfen ---
+# --- Dokumente erneut prüfen ---
 df_filtered = df_filtered[df_filtered["tokens"].apply(len) >= min_tokens].copy()
+df_filtered = df_filtered[df_filtered.year < 1919].copy()
 
+group_size = 4
+df_filtered["time_point"] = (
+    df_filtered["year"] - df_filtered["year"].min()
+) // group_size
 
 print("Ursprüngliche Dokumente:", len(df))
 print("Nach Filterung:", len(df_filtered))
 
 # ---------- DTM SETUP ----------
-years = sorted(df_filtered["year"].unique())
-year_to_tp = {year: idx for idx, year in enumerate(years)}
+time_point = sorted(df_filtered["time_point"].unique())
+# year_to_tp = {year: idx for idx, year in enumerate(years)}
 
 
 # --- Parameter merken ---
-k = 20
-num_timepoints = len(years)
-min_cf = 50
-min_df = 20
+k = 15
+num_timepoints = len(time_point)
+min_cf = 10
+min_df = 4
 term_weight = "IDF"
 workers = 8
 seed = 42
-total_iters = 10000
+total_iters = 20000
 step = 100
-burn_in = 1200
+burn_in = 5000
 
 dtm = tp.DTModel(
     k=k, t=num_timepoints, min_cf=min_cf, min_df=min_df, tw=tp.TermWeight.IDF, seed=seed
@@ -72,7 +82,7 @@ dtm = tp.DTModel(
 
 # ---------- DOKUMENTE HINZUFÜGEN ----------
 for _, row in tqdm(df_filtered.iterrows(), total=len(df_filtered)):
-    dtm.add_doc(row["tokens"], timepoint=year_to_tp[row["year"]])
+    dtm.add_doc(row["tokens"], timepoint=row["time_point"])
 
 dtm.burn_in = burn_in
 
@@ -80,8 +90,8 @@ dtm.burn_in = burn_in
 # ll pro Schritt festhalten und stop definieren
 ll_history = []
 
-threshold = 0.005
-patience = 3
+threshold = 0.001
+patience = 10
 stable_count = 0
 
 print("Starte Training mit Early Stopping...")
@@ -182,7 +192,7 @@ with open(output_file, "w", encoding="utf-8") as f:
     for k_idx in range(dtm.k):
         f.write(f"--- Topic {k_idx} ---\n")
         for t in range(num_timepoints):
-            top_words = dtm.get_topic_words(k_idx, timepoint=t, top_n=10)
+            top_words = dtm.get_topic_words(k_idx, timepoint=t, top_n=5)
             top_words_str = ", ".join(
                 [f"{word}({prob:.3f})" for word, prob in top_words]
             )
